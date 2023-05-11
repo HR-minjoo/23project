@@ -74,12 +74,30 @@ ul{
     justify-content: center;
     align-items: center;
 }
-.ticket-one{
-    background-color: white;
-    width: 27rem;
-    height: 35rem;
-    border-radius: 5%;
-    text-align: center;
+
+.close-btn{
+    position: fixed;
+    background-color: rgb(255, 238, 204);
+    cursor: pointer;
+    border:0;
+  	background-color: #41fc97;
+    color: white;
+  	padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+}
+
+.close-btn:hover{
+    color:#5a4b4b;
+    
+}
+
+
+img{
+    object-fit: cover;
 }
 .show-modal{
     visibility: visible;
@@ -132,7 +150,6 @@ ul{
     
 }
 .body-btn:hover{
-    border:solid 3px #5a4b4b;
     color:#5a4b4b;
 }
 .body-bus{
@@ -147,3 +164,6 @@ ul{
     width: 40rem;
 }
 
+.time-image{
+    width: 50rem;
+}
